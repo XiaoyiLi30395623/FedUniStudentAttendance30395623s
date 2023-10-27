@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <Button
+        android:background="@color/lawngreen"
+        android:id="@+id/btnPickStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="chooseAStartDate" />
+
+    <TextView
+
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:id="@+id/tvStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="" />
+
+    <Button
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="@color/lawngreen"
+        android:id="@+id/btnPickEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="chooseAnEndDate" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:id="@+id/tvEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/edtCourseId"
+        android:hint="pleaseEnterTheCourseNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtCourseName"
+        android:hint="pleaseEnterACourseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textSize="20dp"
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save" />
+</LinearLayout>
